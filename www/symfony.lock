@@ -87,6 +87,9 @@
     "laminas/laminas-zendframework-bridge": {
         "version": "1.0.1"
     },
+    "nikic/php-parser": {
+        "version": "v4.3.0"
+    },
     "ocramius/package-versions": {
         "version": "1.5.1"
     },
@@ -166,6 +169,9 @@
             ".env"
         ]
     },
+    "symfony/form": {
+        "version": "v5.0.4"
+    },
     "symfony/framework-bundle": {
         "version": "4.4",
         "recipe": {
@@ -192,11 +198,32 @@
     "symfony/http-kernel": {
         "version": "v5.0.4"
     },
+    "symfony/inflector": {
+        "version": "v5.0.4"
+    },
+    "symfony/intl": {
+        "version": "v5.0.4"
+    },
+    "symfony/maker-bundle": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "fadbfe33303a76e25cb63401050439aa9b1a9c7f"
+        }
+    },
     "symfony/mime": {
+        "version": "v5.0.4"
+    },
+    "symfony/options-resolver": {
         "version": "v5.0.4"
     },
     "symfony/orm-pack": {
         "version": "v1.0.8"
+    },
+    "symfony/polyfill-intl-icu": {
+        "version": "v1.14.0"
     },
     "symfony/polyfill-intl-idn": {
         "version": "v1.14.0"
@@ -206,6 +233,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.14.0"
+    },
+    "symfony/property-access": {
+        "version": "v5.0.4"
     },
     "symfony/routing": {
         "version": "4.2",
@@ -226,6 +256,22 @@
     },
     "symfony/stopwatch": {
         "version": "v5.0.4"
+    },
+    "symfony/translation-contracts": {
+        "version": "v2.0.1"
+    },
+    "symfony/validator": {
+        "version": "4.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.3",
+            "ref": "d902da3e4952f18d3bf05aab29512eb61cabd869"
+        },
+        "files": [
+            "config/packages/test/validator.yaml",
+            "config/packages/validator.yaml"
+        ]
     },
     "symfony/var-dumper": {
         "version": "v5.0.4"
